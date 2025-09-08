@@ -35,4 +35,4 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #endif
 
-#define DEFAULT_FREQUENCY 24000
+#define DEFAULT_FREQUENCY 32000
