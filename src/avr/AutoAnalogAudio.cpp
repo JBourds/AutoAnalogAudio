@@ -122,7 +122,9 @@ void AutoAnalog::disableAdcChannel(uint8_t pinAx){
 
 void AutoAnalog::getADC(uint32_t samples){
   
-  while(adcSampleCounter < adcNumSamples && !autoAdjust){}
+  while(adcSampleCounter < adcNumSamples && !autoAdjust){
+      Serial.print('T');
+  }
   
   if(adcBitsPerSample == 8){    
     for(uint16_t i=0; i<adcNumSamples; i++){
