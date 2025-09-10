@@ -29,10 +29,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #else
 
-#define MAX_BUFFER_SIZE 128
+#define MAX_BUFFER_SIZE 256
 #define DAC0_PIN 9
 #define DAC1_PIN 10
 
 #endif
 
-#define DEFAULT_FREQUENCY 16000
+#define DEFAULT_FREQUENCY 8000
